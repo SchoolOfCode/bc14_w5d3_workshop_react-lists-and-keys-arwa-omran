@@ -77,6 +77,24 @@ const samplePosts = [
         'A pigeon with a spectacular green plumage stares thoughtfully into the distance.',
     },
   },
+  {
+    postId: 4,
+    title: 'The Cuttest Bird',
+    date: '13/03/23',
+    author: 'Arwa Omran',
+    text: lorem.generateParagraphs(7),
+    highlights: [
+      lorem.generateWords(3),
+      lorem.generateWords(3),
+      lorem.generateWords(3),
+    ],
+    image: {
+      link:
+        'https://image.freepik.com/free-photo/pidgeon-waters-edge_19485-37038.jpg',
+      alt:
+        'A pigeon with a spectacular green plumage stares thoughtfully into the distance.',
+    },
+  },
 ];
 
 export default samplePosts;
