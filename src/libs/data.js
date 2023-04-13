@@ -80,7 +80,7 @@ const samplePosts = [
   {
     postId: 4,
     title: 'The Cuttest Bird',
-    date: '13/03/23',
+    date: '13/04/23',
     author: 'Arwa Omran',
     text: lorem.generateParagraphs(7),
     highlights: [
